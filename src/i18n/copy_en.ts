@@ -54,7 +54,7 @@ export const copyEn: Copy = {
           company: 'CODE Exitos · Austin, TX',
           description:
             'Designed UI/UX improvements, supported high availability through monitoring and maintenance, and delivered performant applications that increased engagement. Built and optimized a Yard Management System (YMS) for logistics and real-time asset tracking, and implemented scalable modules with modern frameworks to improve workflows and data accuracy for a high-profile client.',
-          tags: ['React', 'Vue', 'TypeScript', 'Node.js', 'REST APIs'],
+          tags: ['React', 'Angular', 'TypeScript', 'Node.js', 'REST APIs'],
         },
         {
           dates: '2024 — 2025',

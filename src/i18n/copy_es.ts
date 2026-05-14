@@ -54,7 +54,7 @@ export const copyEs: Copy = {
           company: 'CODE Exitos · Austin, TX',
           description:
             'Mejoré UI/UX, apoyé alta disponibilidad con monitoreo y mantenimiento, y entregué aplicaciones de alto rendimiento que aumentaron el engagement. Desarrollé y optimicé un YMS para logística y seguimiento en tiempo real, e implementé módulos escalables con frameworks modernos para mejorar flujos y precisión de datos para un cliente destacado.',
-          tags: ['React', 'Vue', 'TypeScript', 'Node.js', 'REST APIs'],
+          tags: ['React', 'Angular', 'TypeScript', 'Node.js', 'REST APIs'],
         },
         {
           dates: '2024 — 2025',
