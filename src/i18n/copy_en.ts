@@ -43,7 +43,7 @@ export const copyEn: Copy = {
         {
           dates: '2025 — 2026',
           title: 'QA Analyst',
-          company: 'CODE Exitos · Austin, TX',
+          company: 'CODE Exitos',
           description:
             'Streamlined testing processes to improve team efficiency, collaborated with cross-functional teams for smooth releases, and met tight deadlines while keeping quality high. Ran regression testing for stability, designed and executed end-to-end strategies for client-facing applications, and partnered with developers to find and fix critical bugs.',
           tags: ['Playwright', 'E2E testing', 'Agile / Scrum', 'Regression'],
@@ -51,7 +51,7 @@ export const copyEn: Copy = {
         {
           dates: '2025 — 2026',
           title: 'Software Developer',
-          company: 'CODE Exitos · Austin, TX',
+          company: 'CODE Exitos',
           description:
             'Designed UI/UX improvements, supported high availability through monitoring and maintenance, and delivered performant applications that increased engagement. Built and optimized a Yard Management System (YMS) for logistics and real-time asset tracking, and implemented scalable modules with modern frameworks to improve workflows and data accuracy for a high-profile client.',
           tags: ['React', 'Angular', 'TypeScript', 'Node.js', 'REST APIs'],
@@ -59,7 +59,7 @@ export const copyEn: Copy = {
         {
           dates: '2024 — 2025',
           title: 'Software Developer Intern',
-          company: 'CODE Exitos · Austin, TX',
+          company: 'CODE Exitos',
           description:
             'Developed scripts and modules to automate routine QA tasks, learned the professional software lifecycle alongside senior engineers, and helped maintain and optimize internal systems. Provided technical support and troubleshooting for software components.',
           tags: ['JavaScript', 'Automation', 'Support'],

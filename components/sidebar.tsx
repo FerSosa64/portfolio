@@ -1,5 +1,4 @@
 import { usePortfolioPreferences } from '../src/context/PortfolioPreferences.tsx'
-import profilePhoto from '../images/Yo perfil.jpg'
 import './sidebar.css'
 
 export type SectionId = 'about' | 'experience' | 'projects'
@@ -22,14 +21,6 @@ export default function Sidebar({ active, onSelect }: SidebarProps) {
   return (
     <aside className="sidebar" aria-label={t.sidebar.profileAria}>
       <div className="sidebar__intro">
-        <img
-          className="sidebar__photo"
-          src={profilePhoto}
-          width={112}
-          height={112}
-          alt={t.sidebar.name}
-          decoding="async"
-        />
         <h1 className="sidebar__name">{t.sidebar.name}</h1>
         <p className="sidebar__role">{t.sidebar.role}</p>
         <p className="sidebar__tagline">{t.sidebar.tagline}</p>

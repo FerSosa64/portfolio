@@ -43,7 +43,7 @@ export const copyEs: Copy = {
         {
           dates: '2025 — 2026',
           title: 'Analista QA',
-          company: 'CODE Exitos · Austin, TX',
+          company: 'CODE Exitos',
           description:
             'Optimicé procesos de prueba para mejorar la eficiencia del equipo, colaboré con equipos multifuncionales para lanzamientos fluidos y cumplí plazos ajustados sin sacrificar calidad. Ejecuté pruebas de regresión para estabilidad, diseñé estrategias end-to-end para aplicaciones orientadas al cliente y trabajé con desarrolladores para corregir bugs críticos.',
           tags: ['Playwright', 'Pruebas E2E', 'Agile / Scrum', 'Regresión'],
@@ -51,7 +51,7 @@ export const copyEs: Copy = {
         {
           dates: '2025 — 2026',
           title: 'Desarrollador de software',
-          company: 'CODE Exitos · Austin, TX',
+          company: 'CODE Exitos',
           description:
             'Mejoré UI/UX, apoyé alta disponibilidad con monitoreo y mantenimiento, y entregué aplicaciones de alto rendimiento que aumentaron el engagement. Desarrollé y optimicé un YMS para logística y seguimiento en tiempo real, e implementé módulos escalables con frameworks modernos para mejorar flujos y precisión de datos para un cliente destacado.',
           tags: ['React', 'Angular', 'TypeScript', 'Node.js', 'REST APIs'],
@@ -59,7 +59,7 @@ export const copyEs: Copy = {
         {
           dates: '2024 — 2025',
           title: 'Pasante en desarrollo de software',
-          company: 'CODE Exitos · Austin, TX',
+          company: 'CODE Exitos',
           description:
             'Desarrollé scripts y módulos para automatizar tareas de QA, aprendí el ciclo de vida profesional junto a ingenieros senior y ayudé a mantener y optimizar sistemas internos. Brindé soporte técnico y resolución de problemas en componentes de software.',
           tags: ['JavaScript', 'Automatización', 'Soporte'],
