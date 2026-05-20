@@ -6,7 +6,12 @@ export type Copy = {
     name: string
     role: string
     tagline: string
-    nav: { about: string; experience: string; projects: string }
+    nav: {
+      about: string
+      experience: string
+      projects: string
+      resume: string
+    }
     a11y: { language: string; theme: string; dark: string; light: string }
     profileAria: string
     socialLinksLabel: string
@@ -37,6 +42,15 @@ export type Copy = {
         link?: string
       }[]
     }
+    resume: {
+      title: string
+      description: string
+      viewLabel: string
+      downloadLabel: string
+      openLabel: string
+    }
     footer: string
   }
 }
+
+export const RESUME_PATH = '/Fernando-David-Sosa-Flores-Resume.pdf'

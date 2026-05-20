@@ -11,6 +11,7 @@ export const copyEn: Copy = {
       about: 'About',
       experience: 'Experience',
       projects: 'Projects',
+      resume: 'Resume',
     },
     a11y: {
       language: 'Language',
@@ -101,6 +102,14 @@ export const copyEn: Copy = {
           link: 'https://clinicadentalsosafloressps.netlify.app/',
         },
       ],
+    },
+    resume: {
+      title: 'Resume',
+      description:
+        'View or download my full resume as a PDF, including experience, skills, education, and contact details.',
+      viewLabel: 'View resume',
+      downloadLabel: 'Download PDF',
+      openLabel: 'Open PDF in a new tab',
     },
     footer:
       'Coded in VS Code. Built with React and Vite. San Pedro Sula, Honduras · fernandodavidsosaflores@gmail.com · +504 9618-6573',

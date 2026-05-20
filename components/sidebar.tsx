@@ -1,19 +1,22 @@
 import { usePortfolioPreferences } from '../src/context/PortfolioPreferences.tsx'
 import './sidebar.css'
 
-export type SectionId = 'about' | 'experience' | 'projects'
+export type SectionId = 'about' | 'experience' | 'projects' | 'resume'
 
 type SidebarProps = {
   active: SectionId
   onSelect: (id: SectionId) => void
 }
 
-const sections: { id: SectionId; labelKey: 'about' | 'experience' | 'projects' }[] =
-  [
-    { id: 'about', labelKey: 'about' },
-    { id: 'experience', labelKey: 'experience' },
-    { id: 'projects', labelKey: 'projects' },
-  ]
+const sections: {
+  id: SectionId
+  labelKey: 'about' | 'experience' | 'projects' | 'resume'
+}[] = [
+  { id: 'about', labelKey: 'about' },
+  { id: 'experience', labelKey: 'experience' },
+  { id: 'projects', labelKey: 'projects' },
+  { id: 'resume', labelKey: 'resume' },
+]
 
 export default function Sidebar({ active, onSelect }: SidebarProps) {
   const { t, lang, setLang, theme, setTheme } = usePortfolioPreferences()

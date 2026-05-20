@@ -200,6 +200,72 @@
   font-size: 0.95rem;
 }
 
+.resume {
+  max-width: 38rem;
+}
+
+.resume__intro {
+  margin: 0 0 1.25rem;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+.resume__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin-bottom: 1.25rem;
+}
+
+.resume__btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+  color: var(--text-strong);
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  transition:
+    background 0.15s ease,
+    border-color 0.15s ease,
+    color 0.15s ease;
+}
+
+.resume__btn:hover {
+  border-color: var(--text-subtle);
+  background: var(--pill-bg);
+}
+
+.resume__btn--primary {
+  color: var(--pill-text);
+  background: var(--pill-bg);
+  border-color: transparent;
+}
+
+.resume__btn--primary:hover {
+  filter: brightness(1.08);
+}
+
+.resume__viewer {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+  background: var(--bg-elevated, var(--bg));
+  box-shadow: var(--shadow-soft);
+}
+
+.resume__frame {
+  display: block;
+  width: 100%;
+  height: min(72vh, 640px);
+  min-height: 420px;
+  border: none;
+}
+
 .fine-print {
   margin: 2rem 0 0;
   max-width: 38rem;

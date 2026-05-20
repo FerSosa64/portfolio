@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useState } from 'react'
 import Sidebar, { type SectionId } from '../components/sidebar.tsx'
 import { usePortfolioPreferences } from '../src/context/PortfolioPreferences.tsx'
+import { RESUME_PATH } from '../src/i18n/copy.types.ts'
 import './home.css'
 
 export default function Home() {
@@ -18,13 +19,18 @@ export default function Home() {
 
   useEffect(() => {
     const hash = window.location.hash.replace('#', '') as SectionId
-    if (hash === 'about' || hash === 'experience' || hash === 'projects') {
+    if (
+      hash === 'about' ||
+      hash === 'experience' ||
+      hash === 'projects' ||
+      hash === 'resume'
+    ) {
       setActive(hash)
     }
   }, [])
 
   useEffect(() => {
-    const ids: SectionId[] = ['about', 'experience', 'projects']
+    const ids: SectionId[] = ['about', 'experience', 'projects', 'resume']
     const elements = ids
       .map((id) => document.getElementById(id))
       .filter((n): n is HTMLElement => Boolean(n))
@@ -136,6 +142,43 @@ export default function Home() {
                   </li>
                 ))}
               </ul>
+            </section>
+
+            <section
+              className="section"
+              id="resume"
+              aria-labelledby="resume-title"
+            >
+              <h2 className="section__title" id="resume-title">
+                {t.sections.resume.title}
+              </h2>
+              <div className="resume">
+                <p className="resume__intro">{t.sections.resume.description}</p>
+                <div className="resume__actions">
+                  <a
+                    className="resume__btn resume__btn--primary"
+                    href={RESUME_PATH}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {t.sections.resume.openLabel}
+                  </a>
+                  <a
+                    className="resume__btn"
+                    href={RESUME_PATH}
+                    download="Fernando-David-Sosa-Flores-Resume.pdf"
+                  >
+                    {t.sections.resume.downloadLabel}
+                  </a>
+                </div>
+                <div className="resume__viewer">
+                  <iframe
+                    className="resume__frame"
+                    src={`${RESUME_PATH}#view=FitH`}
+                    title={t.sections.resume.viewLabel}
+                  />
+                </div>
+              </div>
             </section>
 
             <p className="fine-print">{t.sections.footer}</p>
