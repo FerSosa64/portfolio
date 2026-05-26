@@ -20,12 +20,17 @@ export const copyEs: Copy = {
       light: 'Claro',
     },
     profileAria: 'Presentación y navegación del sitio',
-    socialLinksLabel: 'Enlaces sociales',
+    contactsTitle: 'Contacto',
+    socialLinksLabel: 'Enlaces de contacto',
     navLabel: 'Secciones de la página',
     linkedinUrl: 'https://www.linkedin.com/in/fernando-sosa-37b624306',
+    emailUrl: 'mailto:fernandodavidsosaflores@gmail.com',
+    whatsappUrl: 'https://wa.me/50496186573',
     social: {
       github: 'Perfil de GitHub',
       linkedin: 'Perfil de LinkedIn',
+      gmail: 'Enviar correo',
+      whatsapp: 'Chatear por WhatsApp',
     },
   },
   sections: {
@@ -99,6 +104,7 @@ export const copyEs: Copy = {
           description:
             'Desarrollé un sitio web para una clínica local, implementando un UI moderno y diseño responsivo para mejorar la experiencia del usuario.',
           tags: ['React', 'TypeScript', 'Vite'],
+          link: 'https://clinica-sosaflores.web.app/',
         },
       ],
     },

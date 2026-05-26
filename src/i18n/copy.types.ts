@@ -14,10 +14,13 @@ export type Copy = {
     }
     a11y: { language: string; theme: string; dark: string; light: string }
     profileAria: string
+    contactsTitle: string
     socialLinksLabel: string
     navLabel: string
     linkedinUrl: string
-    social: { github: string; linkedin: string }
+    emailUrl: string
+    whatsappUrl: string
+    social: { github: string; linkedin: string; gmail: string; whatsapp: string }
   }
   sections: {
     tagsLabel: string
