@@ -99,7 +99,6 @@ export const copyEs: Copy = {
           description:
             'Desarrollé un sitio web para una clínica local, implementando un UI moderno y diseño responsivo para mejorar la experiencia del usuario.',
           tags: ['React', 'TypeScript', 'Vite'],
-          link: 'https://clinicadentalsosafloressps.netlify.app/',
         },
       ],
     },

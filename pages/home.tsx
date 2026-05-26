@@ -124,9 +124,17 @@ export default function Home() {
                 {t.sections.projects.items.map((proj) => (
                   <li key={proj.title} className="project-card">
                     <h3 className="project-card__title">
-                      <a href={proj.link} target="_blank" rel="noopener noreferrer">
-                        {proj.title}
-                      </a>
+                      {proj.link ? (
+                        <a
+                          href={proj.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          {proj.title}
+                        </a>
+                      ) : (
+                        <span>{proj.title}</span>
+                      )}
                     </h3>
                     <p className="project-card__text">{proj.description}</p>
                     <ul

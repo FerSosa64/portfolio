@@ -99,7 +99,6 @@ export const copyEn: Copy = {
           description:
             'Built a website for a local clinic, implementing a modern UI and responsive design to improve user experience.',
           tags: ['React', 'TypeScript', 'Vite'],
-          link: 'https://clinicadentalsosafloressps.netlify.app/',
         },
       ],
     },
